@@ -27,6 +27,10 @@ html{
   align-items: center;
   gap: 1rem;
 }
+.ph-basket{
+  color: #16a34a;
+  font-size: 3rem;
+}
 .primary-btn{
   background-color:#16a34a;
   display: inline-block;
@@ -44,6 +48,7 @@ html{
   .nav-items{
     display:none;
   }
+  
 }
 .nav-items li a{
   text-decoration: none;
@@ -69,6 +74,11 @@ html{
   width: fit-content;
   border-radius: 20px;
   padding: 2px 2rem;
+}
+@media(max-width:400px) {
+  .hero-text-tag{
+    font-size: 1rem;
+  }
 }
 .hero-heading{
   font-size: 5rem;
@@ -153,6 +163,12 @@ html{
   }
   .everything-card{
     border: 1px solid #19408f;
+  }
+  .how-it-works-title h3,.everything-title h3{
+    font-size: 2.5rem;
+  }
+  p{
+    font-size: 1.4rem;
   }
 }
 .how-it-works-card{
