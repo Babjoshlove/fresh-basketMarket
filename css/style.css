@@ -121,6 +121,15 @@ html{
     width: 40rem;
     height: 30rem;
   }
+  .how-it-works-title h3{
+    font-size: 2.5rem;
+  }
+  .everything-title h3{
+    font-size: 2.5rem;
+  }
+  .simplify-card h3{
+    font-size: 2.5rem;
+  }
 }
 @media(max-width:740px){
   .hero-image-wrapper{
@@ -164,11 +173,14 @@ html{
   .everything-card{
     border: 1px solid #19408f;
   }
-  .how-it-works-title h3,.everything-title h3{
+  .how-it-works-title h3{
     font-size: 2.5rem;
   }
-  p{
-    font-size: 1.4rem;
+  .everything-title h3{
+    font-size: 2.5rem;
+  }
+  .simplify-card h3{
+    font-size: 2.5rem;
   }
 }
 .how-it-works-card{
